@@ -8,3 +8,11 @@
 #intro{
   background-color:#12a4b7;  
 }
+.title-center{
+    text-align: center
+}
+@media screen and (max-width: 768px) {
+    .title-center {
+        font-size:28px;
+    }
+}
