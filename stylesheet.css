@@ -11,8 +11,29 @@
 .title-center{
     text-align: center
 }
+.context{
+    font-size: 20px;
+    color: #2980b9;
+}
+.img-center{
+    display: block;
+    margin: auto;
+}
+.nav-color{
+    color: blue;
+}
 @media screen and (max-width: 768px) {
     .title-center {
         font-size:28px;
+    }
+    .context{
+        font-size: 16px; 
+    }
+}
+
+@media screen and (max-width: 1455px){
+    .img-size{
+        width:360px;
+        height: 360px;
     }
 }
